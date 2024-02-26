@@ -1,0 +1,16 @@
+# criar um ambiente virtual no python
+python -m venv venv
+
+#ativar o ambiente virtual no python
+.\venv\Scripts\activate
+
+#validar o execution policy no windows
+Get-ExecutionPolicy
+//Restricted
+
+#liberar no powerShell como administrador
+Set-ExecutionPolicy AllSigned -Force
+
+#ativar ambiente virtual no python
+.\venv\Scripts\activate
+
